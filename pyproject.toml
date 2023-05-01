@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arachnida"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Nunes <arthurnunesc@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.29.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
